@@ -1,0 +1,77 @@
+/* File: src/components/RegisterForm.css */
+
+.error {
+    color: #ff4d4f;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .register-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+  }
+  
+  .register-form {
+    background-color: #000;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .register-form h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .register-form p {
+    color: #a9a9a9;
+    margin-bottom: 30px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .register-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .register-form input:focus {
+    border-color: #555;
+    outline: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6600; /* Orange button */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #e65c00;
+  }
+  
+  @media (max-width: 768px) {
+    .register-form {
+      width: 90%;
+    }
+  }
+  
